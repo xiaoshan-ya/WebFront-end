@@ -1,0 +1,67 @@
+body{
+    background-color: rgba(218, 218, 218, 0.5);
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+.box-imgSVG {
+    margin-top: 20px;
+    text-align: center;
+    height: 700px;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBmb250LXNpemU9IjMwIiBmaWxsPSIjYTJhOWI2IiBmaWxsLW9wYWNpdHk9IjAuMyIgZm9udC1mYW1pbHk9InN5c3RlbS11aSwgc2Fucy1zZXJpZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdHJhbnNmb3JtPSdyb3RhdGUoLTQ1LCAxMDAgMTAwKSc+MjAxMjUwMTkwIOW8oOW1qTwvdGV4dD4KPC9zdmc+");
+}
+
+.box-imgSVG img {
+    width: auto;
+    height: 93%;
+}
+
+.box-imgFourier {
+    margin-top: 50px;
+    text-align: center;
+    height: 700px;
+}
+.text {
+    text-align: center;
+    height: 50px;
+}
+
+textarea {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.box-imgFourier canvas {
+    width: auto;
+    height: 93%;
+}
+
+.head {
+    text-align: center;
+    height: 5%;
+}
+
+.box {
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px #ccc;
+    border-radius: 5px;
+    background-color: white;
+    height: 800px;
+}
+
+.box-img {
+    margin-top: 20px;
+    text-align: center;
+    height: 700px;
+    width: auto;
+}
+
+.img {
+    height: 700px;
+    width: auto;
+}

@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.8.2",
+    "mysql": "^2.18.1"
+  },
+  "name": "lab",
+  "description": "新增加了主题切换按钮，可以切换白天模式和夜间模式",
+  "version": "1.0.0",
+  "main": "changeImg.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

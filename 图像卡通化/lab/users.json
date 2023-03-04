@@ -1,0 +1,29 @@
+[{
+  "_id": {
+    "$oid": "61b4b7bb67c465eddd9ae4dc"
+  },
+  "username": "SLittieHill",
+  "password": "$2b$10$TmNnKTI12jc6bJJfqjXhBeHhttYPwLUpZoAsKCkTYEIBe2.QUxjgy",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b4bae6eac1d26cd7d421f9"
+  },
+  "username": "user1",
+  "password": "$2b$10$KBHKa2I4/Kh21RHGneWOt.1bAuHs70VHaLKb1Q5Y4uDOW0TqJEBZ.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b5686f47baa53daebe9cde"
+  },
+  "username": "user2",
+  "password": "$2b$10$98UQ8x8QAkfm/poyNi4XtuG.ddtkDyMi7/AAf825UdNY06910k50O",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b5db1a92c6dcabe6159be1"
+  },
+  "username": "user3",
+  "password": "$2b$10$.wZFvtpPZ02BrB30ZemiOureHPqZDX9MhVM537E/kcpH5lpRsf1oW",
+  "__v": 0
+}]
