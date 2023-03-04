@@ -1,0 +1,18 @@
+body{
+    background-color: rgba(218, 218, 218, 0.5);
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+.box-img {
+    text-align: center;
+    height: 98%;
+}
+
+.box-img img {
+    width: auto;
+    height: 100%;
+}
