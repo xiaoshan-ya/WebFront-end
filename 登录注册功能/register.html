@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>欢迎注册</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="register-div">
+        <h2>欢迎注册</h2>
+        <form method="post" action="login.html">
+            <div class="input-box">
+                <input type="text" id="username" name="username" class="form-control" placeholder="请输入用户名">
+            </div>
+            <div class="input-box">
+                <input type="text" id="password" name="password" class="form-control" placeholder="请输入密码">
+            </div>
+            <div class="input-box">
+                <input type="text" name="passwordAgain" class="form-control" placeholder="请再次输入密码">
+            </div>
+            <div class="input-box button-box">
+                <input type="button" class="button" onclick="register()" value="Sign Up"/>
+            </div>
+        </form>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript">
+        function register(){
+            // 得到数据
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+            // 如果数据为空直接在网页显示错误
+            if(username === ''){
+                alert("Username can't be empty!");
+                return false;
+            }
+            if(password === ''){
+                alert("Password can't be empty!");
+                return false;
+            }
+            // 使用ajax传输数据
+            $.ajax({
+                type:"POST",
+                dataType:"json",
+                crossDomain:true,//允许跨域请求
+                url:'http://localhost:3030/api/register',
+                contentType: "application/json",
+                // 传输的数据本体
+                data:JSON.stringify({
+                    'username':username,
+                    'password':password,
+                }),
+                // 对返回后的结果进行判断
+                success: function (result){
+                    console.log(result);
+                    alert("注册成功");
+                    window.location.href="login.html";
+                },
+                error: function (result){
+                    console.log(result);
+                    alert("注册失败");
+                }
+            })
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+a{
+    font-size: 12px;
+    text-decoration: 0;
+    color:#222;
+}
+
+button{
+    outline: none;
+}
+
+ul,ol,li{
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 100;
+}
+
+img{
+    display: block;
+    border: 0;
+}
+
+body{
+    background-image: linear-gradient(to right, #a66701, #f1f370);
+}
+
+.login-div { // 类选择器
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    /*margin: 150px 50px 0 150px;*/
+    margin-left: 35%;
+    margin-top: 10%;
+    padding: 20px;
+    width: 500px;
+    height: 450px;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 0 0 10px rgba(255,255,255,0.5);
+    box-sizing: border-box;
+}
+
+.register-div { // 类选择器
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    /*margin: 150px 50px 0 150px;*/
+    margin-left: 35%;
+    margin-top: 10%;
+    padding: 20px;
+    width: 500px;
+    height: 450px;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 0 0 10px rgba(255,255,255,0.5);
+    box-sizing: border-box;
+}
+
+h2 { //元素选择器
+    height: 50px;
+    height: 50px;
+    font-size: 1.6em;
+    text-align: center;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+
+.input-box { //类选择器
+    margin:40px auto;
+    margin-left: 80px;
+    margin-top: 20px;
+    height:40px;
+    width:300px;
+}
+
+.form-control {
+    float:left;
+    padding:10px;
+    height:40px;
+    border:0;
+    border-bottom: 1px solid rgb(128, 125, 125);
+    width:300px;
+    font-size:18px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.button-box {
+    border: 0;
+}
+
+.button {
+    border: 0;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin-top: 40px;
+    background-image: linear-gradient(to right, #a66701, #f1f370);
+    color: #fff;
+}
+
+.code {
+    width: 30%;
+    height: 30px;
+    border: 0;
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #b6b4b4;
+}
+
+button:hover{
+    color:#fff;
+    background: #a66701;
+}
